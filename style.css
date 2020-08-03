@@ -5,10 +5,11 @@
 
 body {
     text-align: center;
-    background-color: #22265E;
+    background-color: #fff;
     margin: auto;
 }
-         /* MOVIE ITEMS  */
+
+                        /* MOVIE ITEMS  */
   
 /* MOVIE DIVS */
 .movie-items {
@@ -22,7 +23,7 @@ body {
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 10%;
-    color: #EBEBE4;
+    color: #3f3f3e;
 }
 .movie-information {
     margin-left: 29% ;
@@ -46,7 +47,7 @@ table{
     font-size: smaller;
 }
 td {
-    color: #99BCD3;
+    color: #141414;
     width: 2%;
 }
 iframe {
@@ -61,7 +62,7 @@ iframe {
 
 /*ACTOR'S PAGE*/
 .single-movie {
-    color: #EBEBE4;
+    color: #1b1b1a;
     min-height: 410px;
 }
 .single-actor-page {
@@ -78,7 +79,7 @@ iframe {
     width: 25%;
     float: left;
     border-radius: 3px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.226);
 }
 .movie-img {
     cursor: pointer;
@@ -86,7 +87,7 @@ iframe {
     margin: auto;
     width: 100%;
     height: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.39), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
 }
 .logo-img { 
 /*production company logo*/
@@ -97,7 +98,7 @@ iframe {
     margin: 2%;
     max-width: 150px;
     max-height: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.473), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
     cursor: pointer;
     border-radius: 3px;
 }
@@ -112,7 +113,7 @@ iframe {
 /* HOVER STYLES */
 .container {
     position: relative;
-    width: 66%;
+    width: 62%;
     padding: 0;
 }
 
@@ -166,10 +167,7 @@ iframe {
     padding-top: 2%;
 }
 h3 {
-    background-color: #787ba0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.521), 0 6px 20px 0 rgba(0, 0, 0, 0.432);
-    padding-left: 4px;
-    border-radius: 3px;
+    color: #60638f;
     margin-top: 2%;
     margin-bottom: 2%;
     font-family: 'Montserrat', sans-serif;
@@ -181,13 +179,31 @@ h1,h2  {
 
 /* NAVBAR  */
 .navbar {
-    background-color: #8585A7 !important;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
+    background-color: #fff !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.103);
     cursor: pointer;
 }
+
 .nav-items {
     padding-bottom: 3px;
 }
+
+.nav-link {
+    color: #181b3d !important;
+}
+
+.nav-link:hover {
+    color: #3C44B3 !important;
+}
+
+.navbar-brand {
+    color: #3d3d3d !important;
+}
+
+#navbarSupportedContent {
+    margin-left: 280px;
+}
+
 .brand-img {
     width: 30px;
     margin-left: 53px;
@@ -208,6 +224,7 @@ h1,h2  {
     float: left;
     margin-bottom: 20px;
     border-radius: 50%;
+    color: #262D85 !important;
 }
 .skill-row {
     width: 60%;
@@ -223,35 +240,41 @@ h1,h2  {
 }
 .middle-container {
     line-height: 2;
-    color: #EBEBE4;
+    color: #646464;
     width: 100%;
     margin-bottom: 5%;
 }  
 .features-about {
     margin-top: 13%;
+    color: #22265E;
 }
 
 /* FOOTER  */
 .contact-section {
     padding-bottom: 1%;
-    background-color: #8585A7;
-    color: #EBEBE4;
+    background-color: #a5a5a52f;
+    color: #474749;
 }
+
 .icon-social {
     margin: 30px 10px;
-    color: #99BCD3;
+
 }
+
 .fas, .fab {
-  color: white;
+  color: rgba(0, 0, 0, 0.479);
   margin-right: 2%;
   border-radius: 25px;
 }
+
 .icon-social {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.164);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.048), 0 6px 20px 0 rgba(0, 0, 0, 0.164);
 }
+
 .fas:hover {
     color: #6968C3;
 }
+
 .fab:hover {
     color: #6968C3;
     cursor: pointer;

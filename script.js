@@ -42,7 +42,7 @@ const renderMovies = async (movies) => {
   }
   movies.map((movie) => {
     const movieDiv = document.createElement("div");
-    movieDiv.setAttribute("class", "movie-items col-xl-4 col-md-6 col-sm-10")
+    movieDiv.setAttribute("class", "movie-items col-xl-3 col-md-4 col-sm-10")
     movieDiv.innerHTML = `
       <div class="container">
         <img class="movie-img" src="${BACKDROP_BASE_URL + movie.poster_path}" alt="${movie.title} poster">
@@ -213,8 +213,7 @@ const singleActorPage = async (actor) => {
     <div class="single-movie">
       <div class="single-actor-page">
         <div>
-             <img id="movie-backdrop"  src=${BACKDROP_BASE_URL + actor.profile_path
-    }>
+          <img id="movie-backdrop"  src=${BACKDROP_BASE_URL + actor.profile_path}>
         </div>
         <div class="movie-information">
         <h1 id="movie-title">${actor.name}</h1>
@@ -301,7 +300,7 @@ const displayGenres = async (genreId) => {
 //Actor list function
 document.querySelector("#actorListBtn").addEventListener('click', popularActorsMain)
 
-//About
+
 // ABOUT PAGE 
 const aboutPageRender = () => {
   CONTAINER.innerHTML = `
@@ -311,7 +310,7 @@ const aboutPageRender = () => {
   <div class="skills">
     <div class="skill-row">
     <i class="fas fa-icons fa-7x myskills"></i>
-      <h1>Who are We?</h1>
+      <h1 class="features-about">Who are We?</h1>
       <p>Movie Guide is a comprehensive and in-depth resource for finding out more about the movies, 
       actors and filmmakers you love.</p>
             <h1 class="features-about">What You'll find </h1>
@@ -324,8 +323,8 @@ const aboutPageRender = () => {
       </ul>
     </div>
     <div class="skill-row">
-      <i class="fab fa-connectdevelop background fa-7x"></i>
-      <h1>Background</h1>
+      <i class="fab fa-connectdevelop background fa-7x myskills"></i>
+      <h1 class="features-about">Background</h1>
       <p class="education">We are web designers/developers based in Istanbul,Turkey.
       We have a passion for web design and love to create new sites.</p>
     </div>
@@ -333,7 +332,7 @@ const aboutPageRender = () => {
 </div>
   </div>
 </div>
-  `}
+  `;}
 //FILTER functions
 const runFilter = (type) => {
   runByFilter(type);
